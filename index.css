@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+margin: 0;
 padding: 0;
 }
 :root{
@@ -109,6 +109,5 @@ footer{
     font-weight: 300;
     display: flex;
     justify-content: left;
-    padding: 2rem;
     background-color: var(--main-brown);
 }
