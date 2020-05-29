@@ -100,6 +100,14 @@ ul{
     align-items: center;
     width: 100%;
     height: 80vh;
-    background-color: var(--main-blie;
+    background-color: var(--main-blue);
     padding: 0 2rem;
+}
+
+/* Footer */
+footer{
+    font-weight: 300;
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
 }
