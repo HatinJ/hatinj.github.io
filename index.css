@@ -51,6 +51,7 @@ ul{
     display: block;
     padding: 8px;
     color:var(--main-white);
+    text-decoration: none;
 }
 .nav{
     display: flex;
@@ -66,13 +67,12 @@ ul{
     display: flex;
     margin-right: 2rem;
     color: var(--main-white);
-    text-decoration: none;
 }
 .nav-list a:hover{
     background: var(--main-red);
     
 }
-.active, .nav-list {
+.nav-list a:active {
     background: var(--main-purple);
 }
 /* Welcome Section */
