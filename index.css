@@ -72,7 +72,7 @@ ul{
     background: var(--main-red);
     
 }
-.active {
+.active, .nav-list {
     background: var(--main-purple);
 }
 /* Welcome Section */
