@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0;
 }
+/* Some Preset Colors */
 :root{
     --main-black: #0A0A0A;
     --main-white: #F6E8EA;
@@ -9,6 +10,7 @@ padding: 0;
     --main-blue: #C7D3DD;
     --main-teal: #84DCCF;
     --main-brown: #702632;
+    --main-purple: #CB9CF2;
 }
 
 html{
@@ -37,8 +39,7 @@ h2{
     font-size: 6rem;
 }
 a{
-    color: var(--main-white);
-    text-decoration: none;
+    color: var(--main-purple);
 }
 
 /* Navigation Bar*/
@@ -64,9 +65,15 @@ ul{
 .nav-list{
     display: flex;
     margin-right: 2rem;
+    color: var(--main-white);
+    text-decoration: none;
 }
 .nav-list a:hover{
     background: var(--main-red);
+    
+}
+.active {
+    background: var(--main-purple);
 }
 /* Welcome Section */
 .welcome-section {
